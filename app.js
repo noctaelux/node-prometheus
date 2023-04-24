@@ -3,7 +3,7 @@ const prom = require('prom-client');
 
 const collectDefaultMetrics = prom.collectDefaultMetrics;
 const app = express();
-const port = 8080;
+const port = 8081;
 
 app.get('/', function (req, res) {
     res.send('Welcome page');
